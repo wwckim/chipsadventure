@@ -29,7 +29,7 @@ nav {
 .sticky + .content {
   padding-top: 60px;
 }
-
+/*comment*/
 body {
     font-size: 26pt; 
     font-family: "TradeGothicLTStd BoldExt";
