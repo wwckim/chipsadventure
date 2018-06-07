@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'TradeGothicLTStd BoldExt';
+    src: url("TradeGothicLTStd BoldExt.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-size: 26pt; 
+    font-family: "TradeGothicLTStd BoldExt";
+    color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.jumbotron {
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+.bluebg{
+    background: RGB(9,25,78);
+    opacity: .95;
+    color: white;
+    text-align: center;
+}
+.whitebg{
+    background: white;
+    color: RGB(9,25,78);
+    text-align: center;
+}
+
+#marie {
+    height: 500px;
+    font-size: .5em;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+#marie > .imgcontainer {
+    width: 30%
+}
+.textbox {
+    width: 60%;
+    margin-right: 50px;
+    line-height: 2;
+}
+
+#accordion {
+    padding: 50px;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    border: none;
+    text-align: justify;
+}
+
+.question {
+    color: RGB(207,72,0);
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.answer {
+    font-size: .550em;
+    color: black;
+    padding: 50px;
+}
+
+#social {
+    text-align: center;
+    margin: 50px;;
+    height: 200px;
+}
+#follow{
+    font-size: .9em;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+.fab {
+    font-size: 1.5em;
+    margin: 10px;
+    color: RGB(163,205,57);
+}
+
+#backtotop {
+    font-size: .5em;
+    text-decoration: underline;
+}

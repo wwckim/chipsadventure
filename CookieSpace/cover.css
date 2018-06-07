@@ -1,0 +1,51 @@
+
+ .container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.hero {
+  background-color: #07174C;
+  color: #FBFBFB;
+  height: 98vh;
+}
+.learn {
+  color: #A0CE48;
+  margin-top: 60%;
+}
+.learn:hover {
+  text-decoration: none;
+}
+.QA {
+  height: 98vh;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+.display-4 {
+    text-align: center;
+}
